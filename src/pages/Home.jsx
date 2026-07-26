@@ -8,7 +8,7 @@ export default function News() {
                 Ghanaian peacekeeping hit by Israel missile in Lebanon.
             </h2>
             <img src="af.png" alt="image" width="300"/>
-            <p>
+            <div>
                 There are reports that a UN peacekeeping base with Ghanaian soldiers in Lebanon was hit by missiles during fighting involving Israel,
                 and several Ghanaian peacekeepers were injured.
                 On 6 March 2026, missiles struck the Ghana battalion headquarters in the town of Qawzah in southern Lebanon.
@@ -52,7 +52,7 @@ export default function News() {
                     • Cyprus
                     • Western Sahara
                 </p>
-            </p>
+            </div>
             <h2>
                 <a href="https://globbalnews.com">Read More</a>
             </h2>

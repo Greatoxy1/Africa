@@ -1,5 +1,5 @@
 import React from "react";
-import NewsCard from "./NewsCard";
+import NewsCard from "../components/NewsCard";
 
 function NewsGrid({ articles }) {
   return (

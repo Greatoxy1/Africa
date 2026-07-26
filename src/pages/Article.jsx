@@ -15,7 +15,6 @@ function Article() {
       {/* All products in one line */}
       <AmazonProduct products={products} />
 
-      <p>These gadgets are recommended by experts for tech enthusiasts.</p>
     </div>
   );
 }

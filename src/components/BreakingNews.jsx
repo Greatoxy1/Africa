@@ -11,7 +11,7 @@ function BreakingNews() {
         setHeadline(titles);
       })
       .catch(() => {
-        setHeadline("⚠️ Unable to load breaking news.");
+        setHeadline("Breaking news there are tention in Middle East as ongoing war between Israel ,USA and Iran continues.");
       });
   }, []);
 
@@ -24,7 +24,7 @@ function BreakingNews() {
 
 const styles = {
   wrapper: {
-    background: "#d90429",
+    background: "#f329a9",
     color: "white",
     overflow: "hidden",
     whiteSpace: "nowrap",

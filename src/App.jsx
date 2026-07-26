@@ -10,7 +10,6 @@ import Politics from "./pages/Politics";
 import Business from "./pages/Business";
 import BreakingNews from "./components/BreakingNews";
 import SubscribeForm from "./components/SubscribeForm";
-import Article from "./pages/Article";
 function App() {
   return (
     <>
@@ -22,7 +21,7 @@ function App() {
       <Header />
 
         <SubscribeForm />
-         <Article />
+        
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/world" element={<World />} />
