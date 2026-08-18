@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(21, 199, 235);
+  background: rgb(221, 227, 229);
   color: black;
   padding: 10px 40px;
 }
@@ -32,16 +32,22 @@
   }
 
   .logo {
-    font-size: 18px;
-    margin-bottom: 5px;
+    background-color: brown;
+    font-size: 26px;
+    color: aliceblue;
+    margin-bottom: 10px;
   }
 
   .nav-links {
+    background-color: chocolate;
     flex-wrap: wrap;
-    gap: 10px;
+    color: #f0f8ff;
+    gap: 24px;
   }
 
   .nav-links a {
-    font-size: 14px;
+    color: #f0f8ff;
+    font-size: 20px;
+    
   }
 }
